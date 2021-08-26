@@ -1,0 +1,142 @@
+html,
+body{
+
+    height: 100%;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+h2 {
+
+    font-family: 'Oswald', sans-serif;
+}
+
+h4 {
+
+    font-family: 'Oswald', sans-serif;
+}
+
+p {
+
+    font-size: 14px;
+}
+
+a {
+    color: white;
+   text-decoration: underline;
+  }
+
+  a:hover {
+    color: #d3d3d3;
+    text-decoration: underline;
+  }
+
+  .fa-facebook {
+    background: whitesmoke;
+    color: black;
+  }
+
+.gradient {
+
+    background: rgb(53,110,120);
+background: linear-gradient(90deg, rgba(53,110,120,1) 0%, rgba(40,49,78,1) 100%);
+}
+
+.page-header {
+    margin-top: 4rem;
+    font-size: 1.25rem;
+    color: #fff;
+}
+
+.usluge {
+    color: #fff;
+}
+
+.usluge ul {
+    padding-left: 2rem;
+    list-style-type: none;
+
+}
+
+.usluge ul li {
+    padding-left: 2rem;
+    background-image: url(../nut.svg);
+    background-repeat: no-repeat;
+    line-height: 1.5rem;
+   
+ margin-bottom: 1rem;
+}
+
+.img-responsive {
+
+    max-width: 100%;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(53,110,120);
+    color: white;
+    text-align: center;
+  }
+
+  .kontakt {
+      color: #fff;
+      
+  }
+
+  .kontakt ul {
+    padding-left: 2rem;
+    list-style-type: none;
+
+  }
+
+  .kontakt ul li {
+      padding-left: 2rem;
+      line-height: 1.5rem;
+      margin-bottom: 1rem;
+      
+    
+  }
+
+  .gallery {
+      max-width: 1000px;
+      margin: auto;
+      border: #d3d3d3 solid 3px;
+      
+  }
+
+  .main-img img,
+  .imgs img {
+      width: 100%;
+  }
+
+  .imgs {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      grid-gap: 5px;
+      cursor: pointer;
+  }
+
+  @keyframes fadeIn {
+      to {
+          opacity: 1;
+      }
+  }
+
+  .fade-in {
+      opacity: 0;
+      animation: fadeIn 0.5s ease-in 1 forwards;
+  }
+
+  @media (max-width: 767px) {
+      .kontakt p {
+          font-size: 0.9em;
+      }
+  }
+
+
+
+
